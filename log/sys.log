@@ -1,0 +1,5 @@
+2018-05-21 14:49:02,821 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 1
+2018-05-21 15:01:33,976 INFO (StartupInfoLogger.java:50)- Starting TestApplication on apple-PC with PID 6176 (D:\springbootworkspaces\test\target\classes started by apple in D:\springbootworkspaces\test)
+2018-05-21 15:01:33,977 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.0.1.RELEASE, Spring v5.0.5.RELEASE
+2018-05-21 15:01:33,977 INFO (SpringApplication.java:659)- No active profile set, falling back to default profiles: default
+2018-05-21 15:01:36,956 INFO (StartupInfoLogger.java:59)- Started TestApplication in 3.071 seconds (JVM running for 837.548)

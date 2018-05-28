@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+
+    <title>注册页面</title>
+    <link rel="stylesheet" href="http://cdn.static.runoob.com/libs/bootstrap/3.3.7/css/bootstrap.min.css">
+
+    <script src="http://cdn.static.runoob.com/libs/jquery/2.1.1/jquery.min.js"></script>
+    <script src="../static/js/jquery-1.12.4.min.js"></script>
+    <script src="http://cdn.static.runoob.com/libs/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+</head>
+
+<body>
+<div>
+
+    <div>
+        <label>用户名</label>
+        <input  name="userName" id="userName" placeholder="请输入用户名">
+    </div>
+    <div>
+        <label>密码</label>
+        <input type="password" name="password" id="password"  placeholder="请输入密码">
+    </div>
+    <button id="btn_rigister">注册</button>
+
+</div>
+</body>
+</html>
+
+
+<script>
+    $("#btn_rigister").click(function () {
+        submit()
+    })
+
+    function submit() {
+        $.ajax({
+            data:{
+                "userName":$("#userName").val(),
+                "password":$("#password").val()
+            },
+            url:"/login/rigister",
+            dataType: "json",
+            success: function (data) {
+                if (data.code == 0) {
+                    alert(data.msg)
+                    location.href="/login/loginPage"
+                } else {
+                    alert(data.msg);
+                }
+            }
+        })
+    }
+
+
+</script>

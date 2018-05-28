@@ -1,0 +1,8 @@
+2018-05-21 14:47:10,705 INFO (StartupInfoLogger.java:59)- Started TestApplication in 2.036 seconds (JVM running for 1789.763)
+2018-05-21 14:47:41,701 INFO (StartupInfoLogger.java:50)- Starting TestApplication on apple-PC with PID 6176 (D:\springbootworkspaces\test\target\classes started by apple in D:\springbootworkspaces\test)
+2018-05-21 14:47:41,707 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.0.1.RELEASE, Spring v5.0.5.RELEASE
+2018-05-21 14:47:41,709 INFO (SpringApplication.java:659)- No active profile set, falling back to default profiles: default
+2018-05-21 14:47:49,076 INFO (StartupInfoLogger.java:59)- Started TestApplication in 7.979 seconds (JVM running for 9.753)
+2018-05-21 14:48:57,209 INFO (LoginController.java:45)- 开始登陆
+2018-05-21 14:49:02,773 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: SELECT * FROM user WHERE login_name = ? and password=? 
+2018-05-21 14:49:02,799 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: luzy(String), dd04dc0dc9186da06504511d6bfff206(String)
