@@ -21,7 +21,7 @@ public class IndexController {
     @RequestMapping("/index")
     public String index(Model model){
       
-        System.out.println("首页2");
+        System.out.println("首页3");
         model.addAttribute("name","world");
         return "index";
     }
