@@ -114,4 +114,19 @@ public class LoginController {
     }
 
 
+    /**
+     * @Description
+     * @author luzy
+     * @date 2018/7/14 14:42
+     * @param [model]
+     * @return java.lang.String
+     */
+    @RequestMapping("/test")
+    @ResponseBody
+    public String test(Model model){
+        log.info("success");
+        return "success";
+    }
+
+
 }
