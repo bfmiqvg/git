@@ -1,6 +1,4 @@
-2018-07-27 19:58:31,526 INFO (StartupInfoLogger.java:59)- Started TestApplication in 2.531 seconds (JVM running for 165.607)
-2018-07-27 19:58:33,722 INFO (StartupInfoLogger.java:50)- Starting TestApplication on apple-PC with PID 4888 (D:\springbootworkspaces\test\target\classes started by apple in D:\springbootworkspaces\test)
-2018-07-27 19:58:33,722 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.0.1.RELEASE, Spring v5.0.5.RELEASE
-2018-07-27 19:58:33,723 INFO (SpringApplication.java:659)- No active profile set, falling back to default profiles: default
-2018-07-27 19:58:35,691 INFO (StartupInfoLogger.java:59)- Started TestApplication in 2.046 seconds (JVM running for 169.772)
-2018-07-27 19:58:42,976 INFO (LoginController.java:127)- success
+2018-07-28 09:19:10,411 INFO (StartupInfoLogger.java:50)- Starting TestApplicationTests on apple-PC with PID 7916 (started by apple in D:\springbootworkspaces\test)
+2018-07-28 09:19:10,421 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.0.1.RELEASE, Spring v5.0.5.RELEASE
+2018-07-28 09:19:10,424 INFO (SpringApplication.java:659)- No active profile set, falling back to default profiles: default
+2018-07-28 09:19:17,754 INFO (StartupInfoLogger.java:59)- Started TestApplicationTests in 7.846 seconds (JVM running for 9.503)
